@@ -1,0 +1,7 @@
+git config --global user.name MariaPires21
+git config --global user.email mpiresdeoliveira963@gmail.com
+
+CLI - Command Line Interface
+
+Criar um projeto API
+dotnet new webapi -o GranVeiculos --use-controllers
