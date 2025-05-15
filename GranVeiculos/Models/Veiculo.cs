@@ -1,7 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
+namespace GranVeiculos.Models
 {
-    public class Modelo
+    [Table("Veiculo")]
+    public class Veiculo
     {
         [Key]
         public int Id { get; set; }

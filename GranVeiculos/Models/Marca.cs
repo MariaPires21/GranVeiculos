@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GranVeiculos.Models
 {
+    [Table("Marca")]
     public class Marca
     {
         
