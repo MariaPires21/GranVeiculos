@@ -5,3 +5,23 @@ CLI - Command Line Interface
 
 Criar um projeto API
 dotnet new webapi -o GranVeiculos --use-controllers
+
+
+
+
+
+
+
+
+{
+    "ConnectionStrings": {
+        "DefaultConnection": "Data Source=MARIACOMPUTER;Initial Catalog=dbCareWithLove;Integrated Security=True;TrustServerCertificate=True"
+    },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
